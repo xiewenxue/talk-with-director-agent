@@ -1,6 +1,8 @@
 # FilmLens Agent Console
 
 一个把李安式思考、电影分析和日常闲聊放在一起的对话项目。支持图片分析、文字对话和电影信息检索，回答会尽量保持李安第一人称口吻，偏口语化、克制、自然。
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## 功能
 - 图片分析：上传截图或剧照，分析构图、光线、空间和情绪
@@ -13,7 +15,7 @@
 - 后端：FastAPI + Agno
 - 前端：React + Vite + MUI
 - 存储：SQLite
-- 资源：`skill/` 下的李安 skill 与 `output/paragraphs.jsonl` 语料
+- 资源：`skill/` 下的李安 skill 与 `output/paragraphs.jsonl` (语料受版权保护，仅在output_demo.txt中展示部分) 语料
 
 ## 项目结构
 
@@ -66,3 +68,5 @@ http://localhost:8000
 
 ## 语料来源
 项目会参考 `output/paragraphs.jsonl` 中的书籍语料来辅助口吻和思路对齐；如果需要重新生成，可查看 `process_mobi_book.py`。
+
+skill 参考自https://github.com/lucian55/human-skill
