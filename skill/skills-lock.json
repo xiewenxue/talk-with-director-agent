@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "liang-skill": {
+      "source": "lucian55/human-skill",
+      "sourceType": "github",
+      "skillPath": "real-people/liang-skill/SKILL.md",
+      "computedHash": "52d27e5667abfefd09bbde1c91f00e950edfffb540cbd60a10ee826751ef816a"
+    }
+  }
+}
